@@ -1,0 +1,3 @@
+﻿  源.c
+f:\1\yufudayu\yufudayu\源.c(12): warning C4101: “k”: 未引用的局部变量
+  yufudayu.vcxproj -> F:\1\yufudayu\Debug\yufudayu.exe
