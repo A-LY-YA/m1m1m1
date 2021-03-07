@@ -47,7 +47,7 @@ int main()
 	int i;
 	printf("请输入10个数：\n");
 	for (i = 1; i <= 10; i++)
-		scanf("%d", &a[i]);    
+		scanf_s("%d", &a[i]);    
 	merge_sort(a, a, 1, 10);    
 	printf("排序后的顺序是：\n");
 	for (i = 1; i <= 10; i++)

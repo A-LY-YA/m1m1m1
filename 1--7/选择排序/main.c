@@ -4,7 +4,7 @@ int main()
 	int i, j, t, a[11];    
 	printf("ÇëÊäÈë10¸öÊı£º\n");
 	for (i = 1; i < 11; i++)
-		scanf("%d", &a[i]);    
+		scanf_s("%d", &a[i]);    
 	for (i = 1; i <= 9; i++)
 		for (j = i + 1; j <= 10; j++)
 			if (a[i] > a[j])    
